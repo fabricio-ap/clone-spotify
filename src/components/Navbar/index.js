@@ -5,6 +5,8 @@ import { ReactComponent as AddIcon } from '../../assets/icons/add.svg';
 import { ReactComponent as HeartFilledIcon } from '../../assets/icons/heart-filled.svg';
 import { ReactComponent as HomeIcon } from '../../assets/icons/home.svg';
 import { ReactComponent as LabraryIcon } from '../../assets/icons/library.svg';
+import { ReactComponent as NextPageIcon } from '../../assets/icons/next-page.svg';
+import { ReactComponent as PrevPageIcon } from '../../assets/icons/prev-page.svg';
 import { ReactComponent as SearchIcon } from '../../assets/icons/search.svg';
 import useStyles from './styles';
 
@@ -121,7 +123,14 @@ function Navbar(props) {
             <MenuIcon />
           </IconButton>
 
-          <div />
+          <div className={classes.navNextPrev}>
+            <button type="button" className={classes.navNextPrevButton}>
+              <PrevPageIcon />
+            </button>
+            <button type="button" className={classes.navNextPrevButton}>
+              <NextPageIcon />
+            </button>
+          </div>
           <div>
             <button type="button" className={classes.navButtonBlack}>
               INSCREVER-SE
