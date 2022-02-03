@@ -131,6 +131,27 @@ const useStyles = makeStyles(() => ({
     width: '100%',
     zIndex: 3
   },
+  navNextPrev: {
+    display: 'flex'
+  },
+  navNextPrevButton: {
+    '-webkit-box-pack': 'center',
+    '-ms-flex-pack': 'center',
+    '-webkit-box-align': 'center',
+    '-ms-flex-align': 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0,0,0,.7)',
+    border: 'none',
+    borderRadius: '50%',
+    color: '#fff',
+    cursor: 'pointer',
+    display: 'inline-flex',
+    height: '32px',
+    justifyContent: 'center',
+    position: 'relative',
+    width: '32px',
+    marginRight: '16px'
+  },
   navButtonBlack: {
     backgroundColor: 'transparent',
     color: '#FFF',
@@ -144,7 +165,18 @@ const useStyles = makeStyles(() => ({
     lineHeight: '18px',
     padding: '8px 34px',
     textAlign: 'center',
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    transition:
+      'transform 33ms cubic-bezier(.3,0,0,1), -webkit-transform 33ms cubic-bezier(.3,0,0,1)',
+    width: 'var(--size)',
+    '&:focus': {
+      '-webkit-transform': 'scale(1.06)',
+      transform: 'scale(1.06)'
+    },
+    '&:hover': {
+      '-webkit-transform': 'scale(1.06)',
+      transform: 'scale(1.06)'
+    }
   },
   navButtonWhite: {
     backgroundColor: '#FFF',
@@ -159,7 +191,18 @@ const useStyles = makeStyles(() => ({
     lineHeight: '18px',
     padding: '8px 34px',
     textAlign: 'center',
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    transition:
+      'transform 33ms cubic-bezier(.3,0,0,1), -webkit-transform 33ms cubic-bezier(.3,0,0,1)',
+    width: 'var(--size)',
+    '&:focus': {
+      '-webkit-transform': 'scale(1.06)',
+      transform: 'scale(1.06)'
+    },
+    '&:hover': {
+      '-webkit-transform': 'scale(1.06)',
+      transform: 'scale(1.06)'
+    }
   }
 }));
 

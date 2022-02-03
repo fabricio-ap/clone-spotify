@@ -29,7 +29,7 @@ const useStyles = makeStyles(() => ({
     letterSpacing: 'normal',
     lineHeight: '16px',
     textTransform: 'none',
-    margin: 0
+    margin: '8px 0'
   },
   link: {
     marginLeft: '8px'
@@ -37,7 +37,13 @@ const useStyles = makeStyles(() => ({
   titleLink: {
     background: 'transparent',
     color: '#b3b3b3',
-    whiteSpace: 'nowrap'
+    whiteSpace: 'nowrap',
+    textDecoration: 'none',
+    '&:hover': {
+      color: '#b3b3b3',
+      cursor: 'pointer',
+      textDecoration: 'underline'
+    }
   },
   textLink: {
     fontSize: '12px',

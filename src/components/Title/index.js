@@ -7,7 +7,11 @@ function Title({ title, subtitle, titleLink }) {
     <div className={classes.root}>
       <div className={classes.box}>
         <div className={classes.divTitle}>
-          <h2 className={classes.title}>{title}</h2>
+          <h2 className={classes.title}>
+            <a to="/" className={classes.titleLink} style={{ color: '#FFF' }}>
+              {title}
+            </a>
+          </h2>
           {subtitle ? (
             <p className={classes.subtitle} as="p" style={{ color: 'rgb(179, 179, 179)' }}>
               {subtitle}
@@ -16,7 +20,7 @@ function Title({ title, subtitle, titleLink }) {
             ''
           )}
         </div>
-        <a to="/" className={`${classes.titleLink} ${classes.link}`}>
+        <a to="/" className={`${classes.titleLink} ${classes.link}`} draggable="false">
           <span className={classes.textLink}>{titleLink}</span>
         </a>
       </div>

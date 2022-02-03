@@ -1,6 +1,6 @@
 import { ThemeProvider } from '@mui/styles';
 import Layout from './components/Layout';
-import Home from './pages/Home';
+import Player from './pages/Player';
 import theme from './theme';
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <main>
       <ThemeProvider theme={theme}>
         <Layout>
-          <Home />
+          <Player />
         </Layout>
       </ThemeProvider>
     </main>

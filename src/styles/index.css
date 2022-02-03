@@ -115,6 +115,14 @@ video {
   vertical-align: baseline;
 }
 
+svg {
+  fill: currentColor;
+}
+
+a {
+  text-decoration: none;
+}
+
 body::-webkit-scrollbar {
   width: 12px; /* width of the entire scrollbar */
 }
@@ -129,11 +137,4 @@ body::-webkit-scrollbar-thumb {
   min-height: 30px;
   z-index: 3;
   padding: 2px;
-}
-svg {
-  fill: currentColor;
-}
-
-a {
-  text-decoration: none;
 }
