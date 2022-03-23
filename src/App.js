@@ -1,17 +1,15 @@
-import { ThemeProvider } from '@mui/styles';
-import Layout from './components/Layout';
-import Player from './pages/Player';
-import theme from './theme';
+import { Layout } from 'components';
+import { ThemeProvider } from 'styled-components';
+import { theme } from 'theme';
+import { Fonts } from 'theme/fonts';
+import './index.css';
 
 function App() {
   return (
-    <main>
-      <ThemeProvider theme={theme}>
-        <Layout>
-          <Player />
-        </Layout>
-      </ThemeProvider>
-    </main>
+    <ThemeProvider theme={theme}>
+      <Fonts />
+      <Layout></Layout>
+    </ThemeProvider>
   );
 }
 

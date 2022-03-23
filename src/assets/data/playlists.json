@@ -1,0 +1,64 @@
+[
+  {
+    "Paradas": [
+      {
+        "id": 1,
+        "title": "Top 50 - Brasil",
+        "text": "Brasil: seu relatório diário das faixas mais tocadas no momento.",
+        "image": "trends1"
+      },
+      {
+        "id": 2,
+        "title": "Top 50 - Mundo",
+        "text": "Mundo: seu relatório diário das faixas mais tocadas no momento.",
+        "image": "trends2"
+      },
+      {
+        "id": 3,
+        "title": "Top Brasil",
+        "text": "Chefin Oficial e os maiores hits do país. O que tá bombando tá aqui.",
+        "image": "trends3"
+      }
+    ]
+  },
+  {
+    "Foco": [
+      {
+        "id": 1,
+        "title": "Foco com Energia",
+        "text": "Beats instrumentais para te ajudar a focar mantendo o ânimo.",
+        "image": "foco1"
+      },
+      {
+        "id": 2,
+        "title": "Foco no Estudo",
+        "text": "Piano instrumental para ajudar sua concentração na hora de ler e estudar.",
+        "image": "foco2"
+      },
+      {
+        "id": 3,
+        "title": "Concentração Perfeita",
+        "text": "Concentração no máximo, sem distrações.",
+        "image": "foco3"
+      },
+      {
+        "id": 4,
+        "title": "Trabalhando de Casa",
+        "text": "Uma seleção de hits pra te acompanhar no home office.",
+        "image": "foco4"
+      },
+      {
+        "id": 5,
+        "title": "Lofi Beats",
+        "text": "A new year ahead with beats to chill, relax, study, and focus... ",
+        "image": "foco5"
+      },
+      {
+        "id": 6,
+        "title": "Peaceful Piano",
+        "text": "Relax and indulge with beautiful piano pieces",
+        "image": "foco6"
+      }
+    ]
+  }
+]
